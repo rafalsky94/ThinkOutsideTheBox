@@ -11,6 +11,12 @@ body {
 
 }
 
+.container {
+  @media #{$tablet-up} {
+    width: 1600px;
+
+  }
+}
 header {
   background: url("../images/header-background.png") no-repeat;
   background-size: cover;
@@ -94,8 +100,10 @@ header {
 
   img {
     width: 100%;
+    display: none;
     @media #{$tablet-up} {
       width: auto;
+      display: inline-block;
       }
     }
   }
@@ -122,3 +130,90 @@ header {
     }
   }
 }
+
+
+/* who are we section */
+
+.who-are-we {
+  padding: 40px 0;
+  height: 640px;
+  background: url("../images/first-section/who-are-we-background.png");
+  background-size: cover;
+}
+
+.who-are-we .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.who-are-we-text {
+
+  padding: 60px;
+
+  @media #{$tablet-up} {
+    padding: 60px 130px 60px 220px;
+  }
+  h2 {
+    font-size: 4em;
+    font-weight: bold;
+    @media #{$tablet-up} {
+      font-size: 45px;
+
+    }
+
+  }
+  p {
+    padding: 75px 0;
+    font-size: 2em;
+    font-weight: lighter;
+    @media #{$tablet-up} {
+      font-size: 16px;
+    }
+
+  }
+  .btn {
+    background: #bc2e3a;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 2em;
+
+      @media #{$tablet-up} {
+        font-size: 16px;
+      }
+
+    }
+  }
+}
+
+.who-are-we .macbook {
+  display: none;
+  @media #{$tablet-up} {
+    padding: 65px 0;
+    display: inline-block;
+  }
+  img:hover {
+    filter: blur(1px);
+  }
+}
+
+
+
+
+/* what we do */
+
+
+.what-we-do {
+  height: 744px;
+  padding: 40px 0;
+  background: url("../images/second-section/second-section-background.png");
+
+
+}
+
