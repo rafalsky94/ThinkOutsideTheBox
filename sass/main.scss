@@ -425,7 +425,9 @@ header {
     font-size: 48px;
     font-weight: bold;
     width: 100%;
+    text-align: center;
     @media #{$desktop-up} {
+      text-align: left;
       font-size: 48px;
       width: 475px;
       margin: 180px 0 45px 160px;
@@ -434,5 +436,8 @@ header {
 
   .clients-image img {
     width: 100%;
+    @media #{$desktop-up} {
+      width: auto;
+    }
   }
 }
