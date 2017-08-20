@@ -2,7 +2,7 @@
 
 wersja 1.0 - niedokończona, dopiero header i nav-bar
 
-Wersja 2.0 - dodane 2 sekcje, 1 do poprawy
+WWersja 1.2a - poprawione wszystko co było do tej pory, RWD mobile działa, do zrobienia tablety.
 
 
 
