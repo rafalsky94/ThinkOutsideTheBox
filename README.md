@@ -12,4 +12,6 @@ Wersja 1.5 - dodałem slider, zostało zrobić 3 sekcje, footer i kilka funkcjon
 1. Gimp do cięcia
 2. HTML
 3. CSS (Gulp-Sass do RWD)
-4. Bootstrap (Hamburger)
+4. JS (jQuery) do obsługi navbaru i swipera
+5. Bootstrap (Hamburger)
+6. Swiper (slider)
