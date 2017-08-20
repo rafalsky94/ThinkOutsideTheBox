@@ -1,33 +1,21 @@
-$(() => {
+$(()=> {
 
-
-    const btn = $(".btn");
-
-
-
-                btn.on("click", (e) => {
-                    e.preventDefault();
-
-                    if (btn.find("a").text("READ MORE")) {
-                        btn.find("a").text("HIDE");
-                    }
-                    if (btn.find("a").text("HIDE")) {
-                        btn.find("a").text("READ MORE");
-                    }
-                });
+   let navbar = $(".navbar");
 
 
 
+   $(window).on("scroll", () => {
+
+       if (scrollY >= 900) {
+           navbar.css("backgroundColor", "#63181f");
+           console.log("ok");
+       } else {
+           navbar.css("backgroundColor", "transparent");
+           console.log("sc")
+       }
 
 
-
-
-
-
-
-
-
-
+   });
 
 
 
