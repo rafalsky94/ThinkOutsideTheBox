@@ -84,7 +84,6 @@ let clientImg = $(".clients-image img");
         firstBtn.on("click", (e) => {
 
         
-        
            $(e.target).parent().parent().parent().children()[0].innerText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
            Integer sagittis, mi sit amet pellentesque pulvinar, lorem erat gravida elit, non lacinia neque tortor vitae tellus. Cras vel ligula vehicula, 
            accumsan dui ac, dictum augue. Sed dapibus nisi sit amet volutpat lobortis. Donec mattis sem lectus, a tincidunt sapien sagittis vitae. 
@@ -94,18 +93,17 @@ let clientImg = $(".clients-image img");
            $(e.target).parent().parent().parent().children()[1].innerText = "Jon Snow, Company SEO";
            clientImg.attr("src", "images/clients/client1-image.png");
 
-           //.active
         })
 
         secondBtn.on("click", (e) => {
-            
+
             $(e.target).parent().parent().parent().children()[0].innerText = `Donec porta euismod justo ut dignissim. 
             Nulla vestibulum quam eget varius auctor. Sed justo eros, faucibus vel ex vitae, tristique tempus lacus. 
             Aenean placerat nisi a molestie venenatis. Nunc fermentum at libero a bibendum. Integer ac pulvinar eros. 
             Cras mollis egestas velit nec condimentum. 
             Praesent leo tellus, faucibus quis nunc eget, viverra rutrum arcu. 
             Nullam condimentum nisi vel hendrerit pretium.`;
-            
+
             $(e.target).parent().parent().parent().children()[1].innerText = "Jinny Summer, Company Secretary";
             clientImg.attr("src", "images/clients/client2-image.png");
         })
@@ -120,9 +118,6 @@ let clientImg = $(".clients-image img");
         })
                 
     
-
-
-
 
 
 });
