@@ -512,7 +512,8 @@ header {
     }
 
     .choose-client {
-      padding: 15px 20px;
+      padding: 15px 0;
+      text-align: center;
       @media #{$desktop-up} {
         padding: 60px 0;
       }
