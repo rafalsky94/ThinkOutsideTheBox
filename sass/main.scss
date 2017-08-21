@@ -307,7 +307,7 @@ header {
 
 /* How we works */
 
-#how-we-works {
+#how-we-work {
 
   padding: 40px 0;
   
@@ -315,7 +315,7 @@ header {
     height: 708px;
   }
 
-  .how-we-works-text {
+  .how-we-work-text {
 
     text-align: center;
     @media #{$desktop-up} {
@@ -367,7 +367,7 @@ header {
   }
 }
 
-  .how-we-works-images {
+  .how-we-work-images {
 
 
 
@@ -446,7 +446,7 @@ header {
   }
 
  .container {
-  
+
 
     h6 {
       font-size: 48px;
@@ -460,8 +460,16 @@ header {
         margin: 180px 0 45px 160px;
       }
     }
+    
 
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+    }
     .clients-image {
+      display: inline-block;
+
       img {
         width: 100%;
         @media #{$desktop-up} {
@@ -470,8 +478,52 @@ header {
       }
     }
 
+    .quote-img {
+      display: inline-block;
+      padding: 15px 0;
+      @media #{$desktop-up} {
+      padding: 90px 20px 0 20px;
+      }
+    }
+
 
     .clients-text {
+      display: inline-block;
+      width: 630px;
+      font-size: 16px;
+      font-family: "open-sans", sans-serif;
+      font-style: italic;
+
+      @media #{$desktop-up} {
+        padding-top: 110px;
+      }
+
+      p {
+        @media #{$desktop-up} {
+          padding-bottom: 50px;
+        }
+        
+      }
+
+      span {
+        font-weight: bold;
+        font-style: normal;
+      }
+    }
+
+    .choose-client {
+      padding: 15px 20px;
+      @media #{$desktop-up} {
+        padding: 60px 0;
+      }
+    
+
+      li {
+        display: inline-block;
+        cursor: pointer;
+      }
+     
+
     }
   }
 }
