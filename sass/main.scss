@@ -373,10 +373,7 @@ header {
 
   }
 
-
 }
-
-
 /* team */
 
 #team {
@@ -399,9 +396,6 @@ header {
     
 
   }
-
-
-
 
   .swiper-container {
     height: auto;
@@ -431,11 +425,6 @@ header {
     }
   }      
 }
-
-
-
-
-
 
 /* clients */
 
@@ -499,6 +488,8 @@ header {
       }
 
       p {
+        overflow: auto;
+        height: 250px;
         @media #{$desktop-up} {
           padding-bottom: 50px;
         }
@@ -529,11 +520,7 @@ header {
   }
 }
 
-
-
 /* footer */
-
-
 
 footer {
   background-color: rgb(0, 0, 0);
