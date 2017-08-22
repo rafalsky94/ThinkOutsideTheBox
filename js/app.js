@@ -88,6 +88,8 @@ let clientImg = $(".clients-image img");
            Integer sagittis, mi sit amet pellentesque pulvinar, lorem erat gravida elit, non lacinia neque tortor vitae tellus. Cras vel ligula vehicula, 
            accumsan dui ac, dictum augue. Sed dapibus nisi sit amet volutpat lobortis. Donec mattis sem lectus, a tincidunt sapien sagittis vitae. 
            Donec at ex ligula. Aenean molestie in nisl eget ultrices. In quis quam id leo semper vehicula at in elit. 
+           Suspendisse auctor facilisis tincidunt. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi.
+           Donec at ex ligula. Aenean molestie in nisl eget ultrices. In quis quam id leo semper vehicula at in elit. 
            Suspendisse auctor facilisis tincidunt. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi.`;
            
            $(e.target).parent().parent().parent().children()[1].innerText = "Jon Snow, Company SEO";
