@@ -1,4 +1,5 @@
-$desktop-up: "screen and (min-width: 1024px)";
+$desktop-up: "screen and (min-width: 1200px)";
+$laptop-up: "screen and (min-width: 1024px)";
 
 
 @font-face{ 
@@ -48,6 +49,7 @@ header {
     height: 890px;
   }
 }
+
 
 
 /*navbar*/
@@ -114,7 +116,7 @@ header {
     .banner-logo img {
       width: 100%;
       @media #{$desktop-up} {
-        width: auto;
+        width: 45vw;
       }
     }
     
@@ -237,6 +239,12 @@ header {
     padding: 65px 0;
     display: inline-block;
   }
+  img {
+    @media #{$desktop-up} {
+      width: 45vw;
+    }
+  }
+  
   img:hover {
     filter: brightness(120%);
   }
@@ -251,7 +259,7 @@ header {
   @media #{$desktop-up} {
     background-color: inherit;
     height: 744px;
-    margin: 0 225px;
+    // margin: 0 225px;
 
   }
 
