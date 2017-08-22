@@ -323,11 +323,17 @@ header {
     height: 708px;
   }
 
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .how-we-work-text {
 
+    display: inline-block;
     text-align: center;
     @media #{$desktop-up} {
       padding: 60px;
+      padding-right: 0;
       text-align: left;
     }
     h4 {
@@ -376,12 +382,26 @@ header {
 }
 
   .how-we-work-images {
+    padding: 20vh 0;
+    }
+    
 
-
-
+    .romb {
+      padding: 10px 0;
+      @media #{$desktop-up} {
+      -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+          -o-transform: skew(-20deg);
+      }
+      img {
+        width: 100%;
+        @media #{$desktop-up} {
+          width: 20vw;
+        }
+      }
+    }
   }
 
-}
 /* team */
 
 #team {
