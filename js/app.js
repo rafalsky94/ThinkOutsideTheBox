@@ -116,6 +116,27 @@ let clientImg = $(".clients-image img");
             $(e.target).parent().parent().parent().children()[1].innerText = "Jinny Snow, Company CEO";
             clientImg.attr("src", "images/clients/client-image.png");
         })
+
+
+
+
+        //smooth scroll
+
+
+
+
+$("a").on('click', function(event) {
+    
+        if (this.hash !== "") {
+          event.preventDefault();
+          let hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
                 
     
 
