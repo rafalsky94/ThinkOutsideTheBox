@@ -1,5 +1,11 @@
 # ThinkOutsideTheBox
 
+#Live
+
+https://rafalsky94.github.io/ThinkOutsideTheBox/
+
+#Updates
+
 wersja 1.0 - niedokończona, dopiero header i nav-bar.
 
 Wersja 1.2a - poprawione wszystko co było do tej pory, RWD mobile działa, do zrobienia tablety.
