@@ -1,10 +1,10 @@
 # ThinkOutsideTheBox
 
-#Live
+# Live
 
 https://rafalsky94.github.io/ThinkOutsideTheBox/
 
-#Updates
+# Updates
 
 wersja 1.0 - niedokończona, dopiero header i nav-bar.
 
