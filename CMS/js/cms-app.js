@@ -84,9 +84,6 @@ $(() => {
     const url = "http://localhost:3000/";
 
     let list = $("ul");
-    
-    const storage = firebase.storage();
-    const storageRef = firebase.storage().ref();
 
     function readOpinions() {
 
