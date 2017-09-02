@@ -23,7 +23,7 @@ Można edytować sekcje "opinie" z poziomu CMS.
 6. Swiper (slider)
 7. Firebase
 
-# Post Scriptum
+# Co dalej
 
 W niedalekiej przyszłości chcę dodać w CMS zmianę zdjęć opartą o firebase w sekcji "opinie".
 
