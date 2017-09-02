@@ -85,6 +85,9 @@ $(() => {
 
     let list = $("ul");
     
+    const storage = firebase.storage();
+    const storageRef = firebase.storage().ref();
+
     function readOpinions() {
 
     $.ajax({
@@ -93,22 +96,29 @@ $(() => {
         dataType: "json"
     }).done((response) => {
         console.log(response);
+    
         list.empty();
 
         
         for (let i = 0; i < response.length; i++) {
 
         let span = $("<span></span>");
+        let img = $("<img></img>");
         let li = $("<li></li>");
         let h3 = $("<h4></h4>");
         let h4 = $("<h5></h5>");
         let deleteButton = $("<br><br><button class='delete'>Usuń</button>");
         let editButton = $("<button class='edit'>Edytuj</button>");
-        
+        img.attr("src", (response[i].image));
         li.attr("data-id", response[i].id);
+        li.css("border-bottom", "5px solid purple")
+            .css("margin-bottom", "20px")
+            .css("padding-bottom", "20px")
+            .css("list-style", "none");
         li.append(h3.text(response[i].author))
         .append(h4.text(response[i].title))
         .append(span.text(response[i].opinion))
+        .append(img)
         .append(deleteButton)
         .append(editButton);
 

@@ -101,21 +101,21 @@ let clientImg = $(".clients-image img");
 
            $(e.target).parent().parent().parent().children()[0].innerText = response[0].opinion;
            $(e.target).parent().parent().parent().children()[1].innerText = (response[0].author + ", " + response[0].title)
-           clientImg.attr("src", "images/clients/client1-image.png");
+           clientImg.attr("src", "https://firebasestorage.googleapis.com/v0/b/think-outside-the-box-f4d2a.appspot.com/o/client1-image.png?alt=media&token=f96cde6f-181d-44fe-95fd-47f79e5b2af6");
         })
 
         secondBtn.on("click", (e) => {
 
             $(e.target).parent().parent().parent().children()[0].innerText = response[1].opinion;
             $(e.target).parent().parent().parent().children()[1].innerText = (response[1].author + ", " + response[1].title)
-            clientImg.attr("src", "images/clients/client2-image.png");
+            clientImg.attr("src", "https://firebasestorage.googleapis.com/v0/b/think-outside-the-box-f4d2a.appspot.com/o/client2-image.png?alt=media&token=85936c41-c227-4e2b-9b9b-3d6fb287453f");
         })
                 
         thirdBtn.on("click", (e) => {
             
             $(e.target).parent().parent().parent().children()[0].innerText = response[2].opinion;
             $(e.target).parent().parent().parent().children()[1].innerText = (response[2].author + ", " + response[2].title)
-            clientImg.attr("src", "images/clients/client-image.png");
+            clientImg.attr("src", "https://firebasestorage.googleapis.com/v0/b/think-outside-the-box-f4d2a.appspot.com/o/client-image.png?alt=media&token=f52b40b4-53ac-468e-9aaf-12c4fda28d57");
         })
 
     });
