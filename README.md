@@ -4,7 +4,7 @@ Wersja z CMS
 
 Można edytować sekcje "opinie" z poziomu CMS.
 
-#Instrukcja
+# Instrukcja
 
 1. W folderze głównym uruchom terminal
 2. Wpisz $ npm install a następnie $ json-server --watch db.json (koniecznie port 3000)
