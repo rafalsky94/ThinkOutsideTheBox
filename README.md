@@ -25,4 +25,5 @@ Można edytować sekcje "opinie" z poziomu CMS.
 
 # Post Scriptum
 
-W niedalekiej przyszłości chcę dodać do CMS zmianę zdjęć opartą o firebase w sekcji "opinie".
+W niedalekiej przyszłości chcę dodać w CMS zmianę zdjęć opartą o firebase w sekcji "opinie".
+
