@@ -1,0 +1,34 @@
+{
+  "opinions": [
+    {
+      "author": "Jon Snow",
+      "title": "Company SEO",
+      "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, mi sit amet pellentesque pulvinar, lorem erat gravida elit, non lacinia neque tortor vitae tellus. Cras vel ligula vehicula, accumsan dui ac, dictum augue. Sed dapibus nisi sit amet volutpat lobortis. Donec mattis sem lectus, a tincidunt sapien sagittis vitae. Donec at ex ligula. Aenean molestie in nisl eget ultrices. In quis quam id leo semper vehicula at in elit. Suspendisse auctor facilisis tincidunt. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi.Donec at ex ligula. Aenean molestie in nisl eget ultrices. In quis quam id leo semper vehicula at in elit. Suspendisse auctor facilisis tincidunt. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi.",
+      "id": 1
+    },
+    {
+      "author": "Jinny Snow",
+      "title": "Company CEO",
+      "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, mi sit amet pellentesque pulvinar, lorem erat gravida elit, non lacinia neque tortor vitae tellus. Cras vel ligula vehicula, accumsan dui ac, dictum augue. Sed dapibus nisi sit amet volutpat lobortis. Donec mattis sem lectus, a tincidunt sapien sagittis vitae. Donec at ex ligula. Aenean molestie in nisl eget ultrices. In quis quam id leo semper vehicula at in elit. Suspendisse auctor facilisis tincidunt. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi.Donec at ex ligula. Aenean molestie in nisl eget ultrices. In quis quam id leo semper vehicula at in elit. Suspendisse auctor facilisis tincidunt. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi. Curabitur facilisis eu arcu ut interdum. Phasellus vitae eros mi.",
+      "id": 2
+    },
+    {
+      "author": "Jan Kowalski",
+      "title": "Company CEO",
+      "opinion": "Lorem ipsum",
+      "id": 3
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "Jon",
+      "surname": "Snow"
+    },
+    {
+      "id": 2,
+      "name": "Jinny",
+      "surname": "Summer"
+    }
+  ]
+}

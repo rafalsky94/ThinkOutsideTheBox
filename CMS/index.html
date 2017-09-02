@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CMS</title>
+</head>
+<body>
+    <header>
+        <h1>CMS</h1>
+    </header>
+    <section id="login">
+        <div id="login-section-id">
+        <h2>Zaloguj się</h2>
+
+            <input id="email" type="email" placeholder="Email">
+            <br><br>
+            <input id="pass" type="password" placeholder="Hasło">
+            <br><br>
+            <button id="login-btn">Zaloguj</button>
+            <button id="logout-btn" class="hide">Wyloguj</button>
+    </section>
+
+    <section id="opinions" class="hide">
+        <h3>Opinie</h3>
+        <div class="container">
+            <form method="post">
+                <div class="form">
+                    <p>Autor</p>
+                    <input id="author" name="Autor" placeholder="Autor"></input>
+                    <p>Stanowisko</p>
+                    <select id="title" name="Opinie">
+                        <option value="Company CEO" selected="selected">CEO</option>
+                        <option value="Company Manager">Manager</option>
+                        <option value="Company SEO">SEO</option>
+                        <option value="Company Secretary">Secretary</option>
+                        <option value="Woźny">Woźny</option>
+                    </select>
+                    <p>Opinia</p>
+                    <textarea id="opinion" placeholder="Tu wpisz opinię klienta..." name="Komentarz" cols="50" rows="10"></textarea>
+                    <br><br><br>
+                    <input type="submit" value="Wyślij" id="addOpinion" />
+                    <input type="reset" value="Wyczyść" />
+                </div>
+            </form>
+        
+            <div class="opinions-content" id="style-2">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script src="js/cms-app.js"></script>
+</html>

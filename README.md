@@ -1,12 +1,17 @@
 # ThinkOutsideTheBox
 
-wersja 1.0 - niedokończona, dopiero header i nav-bar.
+Wersja z CMS
 
-Wersja 1.2a - poprawione wszystko co było do tej pory, RWD mobile działa, do zrobienia tablety.
+Można edytować sekcje "opinie" z poziomu CMS.
 
-Wersja 1.5 - dodałem slider, zostało zrobić 3 sekcje, footer i kilka funkcjonalności.
+#Instrukcja
 
-Wersja 1.8 - ustawiłem pokazywanie tekstu na buttonach, zmieniłem czcionki, kilka poprawek, została jedna sekcja i trochę RWD.
+1. W folderze głównym uruchom terminal
+2. Wpisz $ npm install a następnie $ json-server --watch db.json (koniecznie port 3000)
+3. Uruchom index.html w folderze głównym, sekcja "opinie" pobiera dane z API db.json
+4. W folderze głównym jest folder "CMS" w nim odpal index.html (poprawny login to pantadeusz@gmail.com  hasło: Haslo123) - walidacja oparta o firebase.
+5. Teraz możesz edytować, dodawać i usuwać opinie na stronie głównej
+
 
 # Wykorzystałem:
 
@@ -16,3 +21,8 @@ Wersja 1.8 - ustawiłem pokazywanie tekstu na buttonach, zmieniłem czcionki, ki
 4. JS (jQuery) do obsługi navbaru i swipera
 5. Bootstrap (Hamburger)
 6. Swiper (slider)
+7. Firebase
+
+# Post Scriptum
+
+W niedalekiej przyszłości chcę dodać do CMS zmianę zdjęć opartą o firebase w sekcji "opinie".

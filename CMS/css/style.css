@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-height: 100vh;
+    overflow: hidden;
+    background: rgb(0, 65, 128) no-repeat;
+    background: -moz-linear-gradient(-45deg, rgba(0,66,128,1) 0%, rgba(0,50,107,0.3) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,66,128,1)), color-stop(100%, rgba(0,50,107,0.3)));
+    background: -webkit-linear-gradient(-45deg, rgba(0,66,128,1) 0%, rgba(0,50,107,0.3) 100%);
+    background: -o-linear-gradient(-45deg, rgba(0,66,128,1) 0%, rgba(0,50,107,0.3) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(0,66,128,1) 0%, rgba(0,50,107,0.3) 100%);
+    background: linear-gradient(135deg, rgba(0,66,128,1) 0%, rgba(0,50,107,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004280', endColorstr='#00326b', GradientType=1 );
+}
+
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    padding: 30px 0;
+}
+div {
+    display: inline-block;
+}
+
+form {
+    text-align: center;
+}
+
+select {
+    width: 300px;
+}
+
+
+
+
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+#login {
+    text-align: center;
+}
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+}
+.delete,
+.edit {
+    margin: 0 5px;
+}
+
+/* divy */
+
+.container {
+    display: flex;
+}
+.form {
+    width: 35vw;
+}
+
+.opinions-content {
+    width: 60vw;
+    height: 407px;
+    overflow: auto;
+}
+
+.hide {
+    display: none;
+}
+
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus {
+border:none;
+outline:none;
+}
+[contenteditable="true"]:focus {
+    display:block;
+    border: 1px solid #54EA3B;
+    background-color: #E0E00D;
+    color: blue;
+    }
+
+
+#style-2::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    
+#style-2::-webkit-scrollbar {
+        width: 12px;
+        background-color: #F5F5F5;
+    }
+    
+#style-2::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: rgb(0, 65, 128);
+    }
