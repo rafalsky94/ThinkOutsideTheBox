@@ -108,7 +108,7 @@ $(() => {
         let editButton = $("<button class='edit'>Edytuj</button>");
         img.attr("src", (response[i].image));
         li.attr("data-id", response[i].id);
-        li.css("border-bottom", "5px solid purple")
+        li.css("border-bottom", "5px solid rgb(99, 24, 31)")
             .css("margin-bottom", "20px")
             .css("padding-bottom", "20px")
             .css("list-style", "none");

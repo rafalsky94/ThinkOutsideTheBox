@@ -37,7 +37,8 @@ $(()=> {
 
    $(window).on("scroll", () => {
 
-       if (scrollY >= 840) {
+       if ((window.innerWidth >= 1200 && scrollY >= 840) || (window.innerWidth < 1200 && scrollY >= 470))
+       {
            navbar.css("backgroundColor", "#63181f");
        } else {
            navbar.css("backgroundColor", "transparent");
