@@ -92,10 +92,10 @@ let clientImg = $(".clients-image img");
     let secondBtn = $(clientBtn[1]);
     let thirdBtn = $(clientBtn[2]);
 
-    const url = "http://localhost:3000/";
+    const url = "https://think-outside-the-box-f4d2a.firebaseio.com/";
     $.ajax({
         method: "GET",
-        url: url + "opinions",
+        url: url + "opinions.json",
         dataType: "json"
     }).done((response) => {
         firstBtn.on("click", (e) => {

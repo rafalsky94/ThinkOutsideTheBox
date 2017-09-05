@@ -89,7 +89,7 @@ $(() => {
 
     $.ajax({
         method: "GET",
-        url: url + "opinions",
+        url: "https://think-outside-the-box-f4d2a.firebaseio.com/" + "opinions.json", //odczyt z firebase, dodawanie, edytowanie, usuwanie - lokalnie (safety first).
         dataType: "json"
     }).done((response) => {
         console.log(response);
